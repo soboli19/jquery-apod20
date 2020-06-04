@@ -10916,9 +10916,11 @@ var apod = {
     let _this = this;
     let date = this.randomDate(new Date(1995, 5, 16), new Date());
     let url = "https://api.nasa.gov/planetary/apod?api_key=BXhedIXLZAtpimXW4995CMj8dKGBhftBmplSMkDj&date=" + date;
+    
     $.ajax({
         url: url
     }).done(function(result){
+      // console.log(result);
         _this.buildDOM(result);
     }).fail(function(result){
       console.log(result);

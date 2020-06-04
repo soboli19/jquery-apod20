@@ -33,3 +33,16 @@ body {
       width: 100%;
       height: 100%;
   }
+#btnRandApod {
+    background-color: #bbb;
+    padding: .5em;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    position: absolute;
+  }
